@@ -107,7 +107,7 @@ public class  DefaultEventPersistenceService
 
             jdbcEventStore.updateEvents( new ArrayList<>( eventProgramStageInstanceMap.values() ) );
 
-            updateTeis( context, events );
+            // updateTeis( context, events );
         }
     }
     
